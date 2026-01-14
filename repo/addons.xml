@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.tvdobill" name="TV DO BILL" version="1.1.0" provider-name="Bill">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_BR">Agregador de canais de TV ao vivo</summary>
+        <description lang="pt_BR">TV DO BILL é um addon para Kodi que agrega todos os canais de TV ao vivo. Assista esportes, filmes, séries, notícias e muito mais em um único lugar. Interface simples e otimizada.</description>
+        <description lang="en">TV DO BILL is a Kodi addon that aggregates all live TV. Watch sports, movies, series, news and much more in one place. Simple interface optimized.</description>
+        <disclaimer lang="pt_BR">Este addon apenas agrega links de conteúdo disponível publicamente. O usuário é responsável por respeitar os direitos autorais e as leis locais.</disclaimer>
+        <disclaimer lang="en">This addon only aggregates links to publicly available content. The user is responsible for respecting copyright and local laws.</disclaimer>
+        <language>pt_BR</language>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <forum>https://www.kodibr.com</forum>
+        <source>https://github.com</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>resources/skins/default/media/fanart.png</fanart>
+            <screenshot>resources/skins/default/media/fanart.png</screenshot>
+        </assets>
+        <news>
+v1.1.0 - Versão inicial com 101 canais de TV ao vivo
+        </news>
+    </extension>
+</addons>
